@@ -1,0 +1,18 @@
+{
+  "homepage": "https://ilhampasya.github.io/gh-page",
+  "scripts": {
+    "build": "postcss src/scss/app.scss -o build/css/app.css",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages"
+  },
+  "dependencies": {
+    "gh-pages": "^6.1.1",
+    "postcss-easy-import": "^4.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.7"
+  }
+}
