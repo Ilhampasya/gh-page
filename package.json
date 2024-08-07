@@ -3,7 +3,7 @@
   "scripts": {
     "build": "postcss src/scss/app.scss -o build/css/app.css",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d ./build"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "gh-pages": "^6.1.1",
